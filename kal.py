@@ -9,7 +9,7 @@ def kali(a, b):
 
 def bagi(a, b):
     if b == 0:
-        return "Error! pembagian dengan nol tidak diperbolehkan."
+        return "Error! pembagian dengan nol tak diperbolehkan."
     return a / b
 
 while True:
@@ -35,7 +35,7 @@ while True:
             angka1 = float(input("masukkan angka pertama: "))
             angka2 = float(input("masukkan angka kedua: "))
         except ValueError:
-            print("input salah! harap masukkan angka yg valid.")
+            print("input nya salah! harap masukkan angka yg valid.")
             continue
         
         if pilihan == '1':
