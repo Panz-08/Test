@@ -9,12 +9,12 @@ def kali(a, b):
 
 def bagi(a, b):
     if b == 0:
-        return "Error! pembagian dengan nol tak diperbolehkan."
+        return "Error cik! pembagian dengan nol gak boleh."
     return a / b
 
 while True:
     print("=====================================")
-    print("   program kalkulator panz08 ganz"    )
+    print("  programnya kalkulator panz08 ganz"  )
     print("=====================================")
     print("    Pilih operasi matematika nya     ")
     print("        1. Penjumblahan (+)          ")
@@ -52,4 +52,4 @@ while True:
             print(f"\nHasil: {angka1} / {angka2} = {hasil}")
             
     else:
-        print("pilihan tak valid! silahkan pilih menu antara 1 sampai 5.")
+        print("pilihannya itu tak valid! silahkan pilih lah menu antara 1 sampai 5.")
