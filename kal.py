@@ -9,7 +9,7 @@ def kali(a, b):
 
 def bagi(a, b):
     if b == 0:
-        return "Error cik! pembagian dengan nol gak boleh."
+        return "Error cuy! pembagian dengan nol gak boleh."
     return a / b
 
 while True:
