@@ -27,7 +27,7 @@ while True:
     pilihan = input("masukkan pilihan anda (1/2/3/4/5): ")
 
     if pilihan == '5':
-        print("Terimakasih telah gunain kal ini ")
+        print("Terimakasih telah gunain kalkulator ini ")
         break
 
     if pilihan in ('1', '2', '3', '4'):
