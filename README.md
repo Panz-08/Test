@@ -1,4 +1,4 @@
-# Test — Kalkulator CLI
+# Test - Kalkulator CLI
 
 [![CI](https://github.com/Panz-08/Test/actions/workflows/ci.yml/badge.svg)](https://github.com/Panz-08/Test/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
