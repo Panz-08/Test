@@ -32,6 +32,11 @@ class AritmetikaTest(unittest.TestCase):
         self.assertEqual(kal.modulo(-7, 2), 1)
         self.assertIn("modulo dengan nol", kal.modulo(5, 0))
 
+    def test_rata_rata(self):
+        self.assertEqual(kal.rata_rata(2, 4, 6), 4)
+        self.assertEqual(kal.rata_rata(10), 10)
+        self.assertIn("minimal satu angka", kal.rata_rata())
+
 
 if __name__ == "__main__":
     unittest.main()

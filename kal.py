@@ -33,6 +33,13 @@ def modulo(a, b):
     return a % b
 
 
+def rata_rata(*angka):
+    """Hitung rata-rata dari sejumlah angka."""
+    if not angka:
+        return "Error cuy! butuh minimal satu angka."
+    return sum(angka) / len(angka)
+
+
 def main():
     while True:
         print("=====================================")
