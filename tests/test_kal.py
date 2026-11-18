@@ -23,6 +23,15 @@ class AritmetikaTest(unittest.TestCase):
         self.assertEqual(kal.bagi(1, 4), 0.25)
         self.assertIn("pembagian dengan nol", kal.bagi(5, 0))
 
+    def test_pangkat(self):
+        self.assertEqual(kal.pangkat(2, 10), 1024)
+        self.assertEqual(kal.pangkat(9, 0.5), 3.0)
+
+    def test_modulo(self):
+        self.assertEqual(kal.modulo(10, 3), 1)
+        self.assertEqual(kal.modulo(-7, 2), 1)
+        self.assertIn("modulo dengan nol", kal.modulo(5, 0))
+
 
 if __name__ == "__main__":
     unittest.main()
