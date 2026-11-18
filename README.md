@@ -10,9 +10,10 @@ otomatis.
 ## Fitur
 
 - Empat operasi aritmetika: tambah, kurang, kali, dan bagi.
+- Fungsi bantu `pangkat` dan `modulo` yang bisa diimpor dari `kal.py`.
 - Input angka desimal (`float`).
 - Penanganan input tidak valid tanpa membuat program berhenti.
-- Pesan khusus untuk pembagian dengan nol.
+- Pesan khusus untuk pembagian dan modulo dengan nol.
 - Menu interaktif dengan opsi keluar.
 
 ## Menjalankan
