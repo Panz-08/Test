@@ -23,6 +23,16 @@ def bagi(a, b):
     return a / b
 
 
+def pangkat(a, b):
+    return a ** b
+
+
+def modulo(a, b):
+    if b == 0:
+        return "Error cuy! modulo dengan nol gak boleh."
+    return a % b
+
+
 def main():
     while True:
         print("=====================================")
